@@ -3,7 +3,7 @@
 apt-get update
 apt-get install git -y
 git --version
-apt-get insatll openjdk-8-jdk -y
+apt-get install openjdk-8-jdk -y
 java  -version
 apt-get install maven -y
 mvn  --version
