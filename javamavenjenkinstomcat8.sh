@@ -9,9 +9,9 @@ apt-get install maven -y
 mvn  --version
 wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-apt-get update
-apt-get install jenkins
-systemctl start jenkins
-systemctl status jenkins
+sudo apt update
+sudo apt install jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
 apt-get install tomcat8 -y
 service tomcat8 status
