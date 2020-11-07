@@ -13,5 +13,5 @@ sudo apt update
 sudo apt install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl status jenkins
-apt-get install tomcat8 -y
-service tomcat8 status
+sudo apt-get install tomcat8 -y
+sudo service tomcat8 status
